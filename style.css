@@ -1,3 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+}
+.navbar > .logo > img{
+    height: 100px;
+    width: 100px;
+}
+ 
+.navbar > .navbarRight{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.navbar > .navbarRight > ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    
+}
+.navbar > .navbarRight > ul > li{
+    padding: 12px;
+}
+
+
 /* footer section css  */
 footer {
     background-color: #282828;
@@ -36,6 +63,11 @@ footer {
 
 .footer-links ul li {
     margin-bottom: 8px;
+}
+
+.mintNftBody{
+    background-color: azure;
+
 }
 
 .footer-links ul li a {
@@ -80,5 +112,16 @@ footer {
 }
 .body p{
     font-size: 15px;
-    color:#
+    
 }
+
+.mintNftBody > .card > button{
+    height: 50px;
+    width: 150px;
+}
+
+.mintNftBody > .card{
+    display: flex;
+margin: auto;
+}
+    
